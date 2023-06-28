@@ -1,0 +1,37 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    max-width: 1600px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: olive;
+    padding: 30px;
+}
+.box {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    border: 2px solid black;
+    flex: 0 0 calc((100% - 40px) / 3);
+    /* min-width: 300px; */
+    /* width: 530px; */
+}
+.picture {
+    display: block;
+    /* height: 300px; */
+    padding: 50% 0 0 0;
+    background: coral;
+    position: relative;
+}
+.picture__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
