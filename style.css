@@ -1,0 +1,38 @@
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ------------------------------------------------------- */
+.page {
+    width: 1440px;
+    min-height: 100vh;
+    background-color: #0101a3;
+    margin: 0 auto;
+}
+.head {
+    min-height: 120px;
+    border-bottom: 16px solid #e92bde;
+    padding: 41px 56px 39px 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 38px;
+}
+.link:hover {
+    color: #e92bde;
+}
